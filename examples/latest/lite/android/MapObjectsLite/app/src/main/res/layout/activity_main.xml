@@ -19,24 +19,31 @@
         android:orientation="horizontal">
         <Button
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="MapPolyline"
             android:onClick="onMapPolylineButtonClicked" />
 
         <Button
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="MapPolygon"
             android:onClick="onMapPolygonButtonClicked" />
 
         <Button
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="MapCircle"
             android:onClick="onMapCircleButtonClicked" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="NewScreen"
+            android:onClick="onNewScreenClicked" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

@@ -19,6 +19,7 @@
 
 package com.here.mapobjects;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -113,5 +114,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onMapCircleButtonClicked(View view) {
         mapObjectsExample.showMapCircle();
+    }
+
+    public void onNewScreenClicked(View view) {
+        startActivity(new Intent(MainActivity.this, MainActivity.class));
     }
 }
